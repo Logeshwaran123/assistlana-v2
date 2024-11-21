@@ -1,0 +1,83 @@
+.contact-section {
+  display: flex;
+}
+
+.contact-section .header {
+  padding: 3rem;
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background-size: cover;
+  color: var(--drk-blue);
+  background-image: url("../images/background/contact-bg.jpg");
+}
+
+.header div {
+  max-width: 360px;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.main-contact-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+
+.contact-icon {
+  max-width: 3.6rem;
+  align-self: flex-start;
+}
+
+.ws-contact {
+  width: 240px;
+  align-items: center;
+  justify-self: center;
+}
+.contact-link {
+  width: 100%;
+}
+
+.row {
+  display: none;
+}
+
+.social {
+  margin: 0;
+}
+
+.social-icon {
+  filter: brightness(0.12);
+  /* background-color: var(--lgt-black);
+  border-radius: 6px; */
+}
+
+.address {
+  display: inline-flex;
+  gap: 2rem;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+}
+
+.container-grid {
+  display: grid;
+  row-gap: 2rem;
+  grid-template-columns: 1fr;
+}
+
+.details-heading {
+  font-size: 1.44rem;
+  line-height: 1;
+  margin-bottom: -8px;
+}
+
+.logo-footer {
+  width: 10rem;
+}
+
+.info-about {
+  width: 60%;
+}

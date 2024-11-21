@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+
+  /* COLORS */
+  --drk-blue: #03045e;
+  --accent-1: #90e0ef;
+  --accent-2: #00b4d8;
+  --white: #fff;
+  --black: #000;
+  --lgt-black: rgba(0, 0, 0, 0.56);
+  --grey-white: #ade8f444;
+
+  /* Custom Var */
+  --aniDuration: 8s;
+  --compCount: 8;
+}
+
+/* ANCHOR - LVHA */
+a:link,
+a:visited {
+  color: var(--drk-blue);
+  text-decoration: none;
+}
+
+/* Navigation Panel */
+nav {
+  padding: 1rem 2.4rem;
+}
+
+nav,
+.nav-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 256px;
+}
+
+.nav-panel {
+  column-gap: 1rem;
+  list-style-type: none;
+}
+
+/* Footer Section */
+footer {
+  color: var(--white);
+  background-color: var(--black);
+  padding: 3rem 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-full {
+  max-width: 256px;
+  margin-bottom: 2rem;
+}
+
+.details {
+  display: grid;
+  row-gap: 1rem;
+  max-width: 360px;
+}
+
+.phone,
+.email {
+  font-weight: 600;
+  font-size: 1.33rem;
+}
+
+.clients-para {
+  max-width: 425px;
+  margin: 0 auto;
+}
+
+.nav-icons {
+  display: none;
+}
+
+.contact {
+  margin-top: 2rem;
+}
+
+.social-icon {
+  width: 2.4rem;
+}

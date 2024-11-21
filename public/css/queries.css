@@ -1,0 +1,224 @@
+@media (max-width: 72rem) {
+  .jobs {
+    max-width: none;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    line-height: 2 !important;
+  }
+
+  .jobs-header-section {
+    min-height: none;
+    position: relative;
+  }
+
+  .header-content {
+    position: absolute;
+    padding: 1rem;
+    /* max-width: 35rem; */
+    bottom: 50px;
+  }
+
+  .categories-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .jobs-division {
+    padding: 0;
+  }
+
+  .main-course-content {
+    grid-template-columns: 1fr 1fr;
+    font-size: 15px;
+  }
+
+  .course-container {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 52rem) {
+  html {
+    font-size: 15px;
+  }
+  /* Brands S */
+  .brand-section {
+    display: block;
+    height: fit-content;
+  }
+
+  .brand-content {
+    margin-bottom: 3rem;
+  }
+
+  .logo-full {
+    width: 80%;
+  }
+}
+
+@media (max-width: 36rem) {
+  html {
+    font-size: 12px;
+    line-height: 1.77;
+  }
+  nav {
+    width: 100vw;
+    padding: 0.6rem 1.6rem;
+  }
+
+  .logo {
+    width: 100%;
+  }
+  .home .header {
+    background-image: url("../images/background/home-mbl-bg.png");
+  }
+  .service .header {
+    background-image: url("../images/background/course-mbl-bg.jpg");
+  }
+  .contact-section .header {
+    background-image: url("../images/background/contact-mbl-bg.jpg");
+  }
+
+  .header,
+  main {
+    padding: 1rem;
+  }
+
+  .main-course-content {
+    grid-template-columns: 1fr;
+    font-size: 1.55rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .new-arrival::before {
+    font-size: 1rem;
+  }
+
+  .course-container {
+    padding: 1rem;
+  }
+
+  .course-description {
+    padding-top: 2rem;
+  }
+
+  .course-section-title {
+    text-align: center;
+  }
+
+  .know-more {
+    display: block;
+    position: relative;
+    transform: translate(0, 50%);
+  }
+
+  .course-details {
+    display: flex;
+    font-size: 14px;
+  }
+
+  /* Footer Section */
+  footer {
+    padding: 0.6rem 1.6rem;
+    display: block;
+  }
+}
+
+@media (max-width: 27rem) {
+  html {
+    font-size: 10px;
+  }
+
+  .categories-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  nav {
+    position: fixed;
+    background-color: var(--white);
+    z-index: 100;
+    box-shadow: 0 1px 1px 3px var(--black);
+  }
+
+  .nav-panel {
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 1rem 2rem;
+    transform: translate(-100%, 100%);
+    background-color: var(--accent-2);
+    opacity: 0;
+    transition: all 0.33s ease-in-out;
+  }
+
+  .active-nav .nav-panel {
+    opacity: 1;
+    transform: translate(0, 100%);
+  }
+
+  .nav-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-icons img {
+    width: 2rem;
+  }
+
+  .nav-icons .close {
+    display: none;
+  }
+
+  .active-icons .menu {
+    display: none;
+  }
+
+  .active-icons .close {
+    display: block;
+  }
+
+  .jobs-header-section {
+    height: 80vh;
+    background-position: top;
+    background-image: url("../images/background/jobs-mbl-bg.jpg");
+  }
+
+  .main-contact-section {
+    display: block;
+    text-align: center;
+  }
+
+  .address {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-icon {
+    align-self: center;
+    justify-content: center;
+  }
+
+  .info-about {
+    width: 100%;
+    grid-row-start: 1;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap !important;
+  }
+
+  .address {
+    display: none !important;
+  }
+
+  .address:nth-child(1) {
+    display: flex !important;
+  }
+}
