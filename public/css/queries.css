@@ -15,6 +15,10 @@
     position: absolute;
     padding: 1rem;
     /* max-width: 35rem; */
+  }
+
+  .users {
+    position: absolute;
     bottom: 50px;
   }
 
