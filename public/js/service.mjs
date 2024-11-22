@@ -12,7 +12,7 @@ courses.forEach((course) => {
             <p class="course-ratings">${course.courseRatings}⭐</p>
         </div>
         <p class="course-description">${course.description}</p>
-        <a href="./contact.html" class="know-more">Know More</a>
+        <a href="https://wa.me/message/5JOBCUDVYJ5EA1" class="know-more">Know More</a>
     </div>
     `;
   content += template;
