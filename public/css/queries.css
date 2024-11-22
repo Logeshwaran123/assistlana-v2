@@ -30,6 +30,10 @@
     padding: 0;
   }
 
+  .jobs-header-section .header-content {
+    margin-top: 100px;
+  }
+
   .main-course-content {
     grid-template-columns: 1fr 1fr;
     font-size: 15px;
@@ -44,6 +48,12 @@
   html {
     font-size: 15px;
   }
+
+  /* Logo Nav Bar Get Changed */
+  nav .logo {
+    width: 10rem;
+  }
+
   /* Brands S */
   .brand-section {
     display: block;
