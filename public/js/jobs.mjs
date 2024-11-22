@@ -11,7 +11,7 @@ const cateName = [
   "Data Analyst",
   "Developer",
   "Internship",
-  "Marketing",
+  "Digital Marketing",
   "Work From Home",
 ];
 
