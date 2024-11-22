@@ -50,8 +50,8 @@
   }
 
   /* Logo Nav Bar Get Changed */
-  nav .logo {
-    max-width: 8rem;
+  .logo {
+    max-width: 8rem !important;
   }
 
   /* Brands S */
